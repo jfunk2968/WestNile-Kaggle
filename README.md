@@ -6,7 +6,7 @@ Weather data is used as the main feature set, and time series aggregations were 
 
 The code is still as it was used during development (i.e. it hasn't been cleaned up to simply produce the solution).  
 
-#####IPython notebooks were used, the repo contains the following files:
+###This repo contains the following IPython notebooks:
 1.  WN-Model.ipynb - the main notebook used to explore the data and develop models
 2.  WN-Weather_Features.ipynb - creates a dataframe of time dependent weather features used in modeling
 3.  WN-Record_Features.ipynb - creates features that exploit the record leakage nature of the competition data
