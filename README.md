@@ -1,4 +1,4 @@
-# A Solution for the Kaggle West Nile prediciton competition
+# An Attempt at the Kaggle West Nile Prediciton Competition
 
 
 Weather data is used as the main feature set, and time series aggregations were used for modeling (mean, max, etc. over various time windows).  Record leakage (the fact that multiple rows are included in the test data when moquitos were found) was leverage to create features used in modeling.  This isn't a useful approach for true prediction, however I used it anyways. Also, no LB tuning was done to account for the year to year differences in WN prevalance or outbreaks.
