@@ -6,8 +6,8 @@ Weather data is used as the main feature set, and time series aggregations were 
 
 The code is still as it was used during development (i.e. it hasn't been cleaned up to simply produce the solution).  
 
-IPython notebooks were used, the repo contains the following files:
-1. WN-Model.ipynb - the main notebook used to explore the data and develop models
-2. WN-Weather_Features.ipynb - creates a dataframe of time dependent weather features used in modeling
-3. WN-Record_Features.ipynb - creates features that exploit the record leakage nature of the competition data
-4. WN-Record_Geo_Features.ipnb - creates features based on record leakage of nearby locations
+#####IPython notebooks were used, the repo contains the following files:
+1.  WN-Model.ipynb - the main notebook used to explore the data and develop models
+2.  WN-Weather_Features.ipynb - creates a dataframe of time dependent weather features used in modeling
+3.  WN-Record_Features.ipynb - creates features that exploit the record leakage nature of the competition data
+4.  WN-Record_Geo_Features.ipnb - creates features based on record leakage of nearby locations
