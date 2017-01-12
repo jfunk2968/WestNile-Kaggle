@@ -3,6 +3,8 @@
 
 Weather data is used as the main feature set, and time series aggregations were used for modeling (mean, max, etc. over various time windows).  Record leakage (the fact that multiple rows are included in the test data when mosquitoes were found) was leverage to create features used in modeling.  This isn't a useful approach for true prediction, however I used it anyways. Also, no LB tuning was done to account for the year to year differences in WN prevalence or outbreaks.
 
+[I'm a pic](https://github.com/jfunk2968/WestNile-Kaggle/blob/master/skeeter_pic.jpg)
+
 
 The code is still as it was used during development (i.e. it hasn't been cleaned up to simply produce the solution).  
 
